@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/pin.png" type="image/x-icon">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Journey Map</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__bar">
+          <div class="logo">
+            <a href="#"><img src="img/Captura_de_tela_9-10-2024_221756_looka.com-removebg-preview.png" alt="logo" /></a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#service">Services</a></li>
+          <li><a href="#explore">Explore</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="btn nav__btn">Book Now</button>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <h1>Discover the World with Us, Your<br /> <span>Adventure</span> Starts Here.</h1>
+      </div>
+    </header>
+
+    <section class="section__container booking__container">
+      <form action="/" class="booking__form">
+        <div class="input__group">
+          <span><i class="ri-calendar-2-fill"></i></span>
+          <div>
+            <label for="check-in">CHECK-IN</label>
+            <input type="text" placeholder="Check In" />
+          </div>
+        </div>
+        <div class="input__group">
+          <span><i class="ri-calendar-2-fill"></i></span>
+          <div>
+            <label for="check-out">CHECK-OUT</label>
+            <input type="text" placeholder="Check Out" />
+          </div>
+        </div>
+        <div class="input__group">
+          <span><i class="ri-user-fill"></i></span>
+          <div>
+            <label for="guest">GUEST</label>
+            <input type="text" placeholder="Guest" />
+          </div>
+        </div>
+        <div class="input__group input__btn">
+          <button class="btn">CHECK OUT</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="img/person-traveling-enjoying-their-vacation.jpg" alt="about" />
+      </div>
+      <div class="about__content">
+        <p class="section__subheader">ABOUT US</p>
+        <h2 class="section__header">Your Journey Begins with Us!</h2>
+        <p class="section__description">
+          At Journey Map, we believe that every adventure should be unique and unforgettable. 
+          Our mission is to craft tailored travel experiences that cater to your desires, offering seamless 
+          itineraries, expert guidance, and exclusive access to the best destinations. Whether you're seeking 
+          a relaxing escape or a thrilling expedition, we're here to turn your travel dreams into reality.
+        </p>
+        <div class="about__btn">
+          <button class="btn">Read More</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container room__container">
+      <p class="section__subheader">OUR DESTINATIONS</p>
+      <h2 class="section__header">The Most Unforgettable Journeys Begin Here.</h2>
+      <div class="room__grid">
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="img/pexels-asadphoto-3601426.jpg" alt="room" />
+            <div class="room__card__icons">
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-paint-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
+            </div>
+          </div>
+          <div class="room__card__details">
+            <h4>Maldives Getaway</h4>
+            <p>
+              Escape to the crystal-clear waters and white sandy beaches of the Maldives. Enjoy luxury, relaxation, and adventure all in one paradise.
+            </p>
+            <h5>Starting from <span>$1,599 per person</span></h5>
+            <button class="btn">Book Now</button>
+          </div>
+        </div>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="img/pexels-gsn-travel-28431994.jpg" alt="room" />
+            <div class="room__card__icons">
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-paint-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
+            </div>
+          </div>
+          <div class="room__card__details">
+            <h4>Alpine Adventure in Switzerland</h4>
+            <p>
+              Discover the majestic Alps with thrilling outdoor activities, cozy lodges, and breathtaking landscapes. Perfect for adventure lovers.
+            </p>
+            <h5>Starting from <span>$2,299 per person</span></h5>
+            <button class="btn">Book Now</button>
+          </div>
+        </div>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="img/pexels-axp-photography-500641970-18848775.jpg" alt="room" />
+            <div class="room__card__icons">
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-paint-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
+            </div>
+          </div>
+          <div class="room__card__details">
+            <h4>Cultural Tour of Japan</h4>
+            <p>
+              Immerse yourself in the rich traditions and modern wonders of Japan. Explore historic temples, vibrant cities, and serene gardens.
+            </p>
+            <h5>Starting from <span>$1,899 per person</span></h5>
+            <button class="btn">Book Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="service" id="service">
+      <div class="section__container service__container">
+        <div class="service__content">
+          <p class="section__subheader">SERVICES</p>
+          <h2 class="section__header">Strive Only For The Best.</h2>
+          <ul class="service__list">
+            <li>
+              <span><i class="ri-shield-check-line"></i></span>
+              Secure and Hassle-Free Booking
+            </li>
+            <li>
+              <span><i class="ri-flight-takeoff-line"></i></span>
+              Custom Travel Itineraries
+            </li>
+            <li>
+              <span><i class="ri-hotel-bed-line"></i></span>
+              Premium Accommodation Partnerships
+            </li>
+            <li>
+              <span><i class="ri-map-pin-line"></i></span>
+              Expert Local Tour Guides
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container banner__container">
+      <div class="banner__content">
+        <div class="banner__card">
+          <h4>50+</h4>
+          <p>Destinations Explored</p>
+        </div>
+        <div class="banner__card">
+          <h4>1,000+</h4>
+          <p>Memorable Journeys Planned</p>
+        </div>
+        <div class="banner__card">
+          <h4>5,000+</h4>
+          <p>Satisfied Travelers</p>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="explore" id="explore">
+      <p class="section__subheader">EXPLORE</p>
+      <h2 class="section__header">Discover New Adventures.</h2>
+      <div class="explore__bg">
+        <div class="explore__content">
+          <p class="section__description">10th MAR 2024</p>
+          <h4>New Excursions Launched in Bali, Maldives, and Paris!</h4>
+          <button class="btn">Learn More</button>
+        </div>
+      </div>
+    </section>
+    
+    <footer class="footer" id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="logo">
+            <a href="#home"><img src="img/Captura_de_tela_9-10-2024_221756_looka.com-removebg-preview.png" alt="logo" /></a>
+          </div>
+          <p class="section__description">
+            Embark on unforgettable journeys with us. Explore our diverse range of travel experiences, ensuring that every adventure is unique and memorable.
+      </p>
+          </p>
+          <button class="btn">Book Now</button>
+        </div>
+        <div class="footer__col">
+          <h4>QUICK LINKS</h4>
+          <ul class="footer__links">
+            <li><a href="#">Explore Destinations</a></li>
+            <li><a href="#">Special Offers & Packages</a></li>
+            <li><a href="#">Travel Itineraries</a></li>
+            <li><a href="#">Customer Reviews & Ratings</a></li>
+            <li><a href="#">Travel Resources & Guides</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>OUR SERVICES</h4>
+          <ul class="footer__links">
+            <li><a href="#">Personalized Travel Planning</a></li>
+            <li><a href="#">Flexible Booking Options</a></li>
+            <li><a href="#">Airport Transfers</a></li>
+            <li><a href="#">Guided Tours & Experiences</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>CONTACT US</h4>
+          <ul class="footer__links">
+            <li><a href="#">journeymap@emaill.com</a></li>
+          </ul>
+          <div class="footer__socials">
+            <a href="#"><img src="assets/facebook.png" alt="facebook" /></a>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 <a href="https://github.com/Marstefany">Marstefany<a> All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
